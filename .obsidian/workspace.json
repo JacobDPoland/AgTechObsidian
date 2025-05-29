@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "ac0902be38e3a8e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb141f578a2c56e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfd15f9c3499cc25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "summer/5-28-2025 At Agrilife (Project 2).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5-28-2025 At Agrilife (Project 2)"
+            }
+          },
+          {
+            "id": "2837bec3638b1a00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "summer/5-29-2025 at AgriLife (Project 2).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5-29-2025 at AgriLife (Project 2)"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "54d38230af9d4e04",
+    "type": "split",
+    "children": [
+      {
+        "id": "9addbd5a1021000b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84be542f494afc72",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "bd6a3cdfc26129ee",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "776125523971091d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 206.5
+  },
+  "right": {
+    "id": "681d48e7f752df3f",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba4e9956330e421a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c93cb1677967d5cd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Dr. Mcginty Talk on 4-2-2025.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Dr. Mcginty Talk on 4-2-2025"
+            }
+          },
+          {
+            "id": "5d3afd12bc4d234c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Dr. Mcginty Talk on 4-2-2025.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Dr. Mcginty Talk on 4-2-2025"
+            }
+          },
+          {
+            "id": "14bb4db022c74e51",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e3404dbaa62f8a14",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Dr. Mcginty Talk on 4-2-2025.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Dr. Mcginty Talk on 4-2-2025"
+            }
+          },
+          {
+            "id": "0830eb7916896b5f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "69fdcec0d2691495",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "2837bec3638b1a00",
+  "lastOpenFiles": [
+    "summer/5-28-2025 At Agrilife (Project 2).md",
+    "summer/5-29-2025 at AgriLife (Project 2).md",
+    "summer/5-27-2025 At AgriLife (Project 2).md",
+    "seminars/4-16-2025 Irrigation Scheduling - Paxton Payton.md",
+    "First Seminar.md",
+    "summer",
+    "seminars",
+    "summer/Website To Dos.md",
+    "seminars/4-2-2025 Cotton and Sorghum Intro - Dr. Mcginty Talk.md",
+    "seminars/4-9-2025 Plant Physiology 101 - Dr. Jose Landivar.md",
+    "seminars/4-23-2025.md",
+    "images/Pasted image 20250422193859.png",
+    "4-16-2025 Irrig- Paxton Payton.md",
+    "Untitled.canvas",
+    "Recording 20250423085724.m4a",
+    "images/Pasted image 20250422193334.png",
+    "images/Pasted image 20250422195200.png",
+    "images/Pasted image 20250422194710.png",
+    "Pasted image 20250422195200.png",
+    "Pasted image 20250422194710.png",
+    "Pasted image 20250422193859.png",
+    "Pasted image 20250422193334.png",
+    "images/Pasted image 20250416095517.png",
+    "images/Pasted image 20250416095417.png",
+    "images",
+    "Welcome.md"
+  ]
+}
