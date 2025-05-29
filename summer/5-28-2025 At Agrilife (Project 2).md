@@ -1,4 +1,3 @@
-⭐Mr. Jose Landivar has an agenda this week that will be helpful for updating the website
 ## Morning: Mission Planning
 ### Intro slide
 - Introduction
@@ -90,7 +89,6 @@ Thermal is # 6
 
 
 ## Flight details from yesterday
-1. 
 
 | Flight height | 25m      |
 | ------------- | -------- |

@@ -24,84 +24,28 @@
 - Flexible and adaptive workflow
 - Accurate and detailed models
 --- 
-## Vegative Index Notes From Seminar Slide
-[[4-9-2025 Plant Physiology 101 - Dr. Jose Landivar]]
-# 🌿 MS Vegetative Indexes
-These indices help assess plant health, biomass, and vegetation density using multi-spectral satellite imagery or drone data.
+## Unmanned Aircraft Systems (UAS Manual) by Texas A&M AgriLife Research
+We used the above mentioned manual while attending following demonstrations and tutorials.
+## MetaShape Demonstration and Tutorial
+We covered:
+- Structure from Motion (SfM) in Agisoft Metashape on Page 42 of the manual
+- 
 
----
-## 1. **NDVI** – _Normalized Difference Vegetation Index_
-**Equation:**
-ini
-CopyEdit
-`NDVI = (N - R) / (N + R)`
-- **N** = Near-infrared reflectance
-- **R** = Red reflectance
-**Purpose:** Measures live green vegetation. Higher NDVI = more vegetation.
----
-## 2. **NDRE** – _Normalized Difference Red Edge Index_
-**Equation:**
-mathematica
-CopyEdit
-`NDRE = (N - E) / (N + E)`
-- **E** = Red edge reflectance
-**Purpose:** Useful for estimating chlorophyll content and detecting stress before it appears visibly.
----
-## 3. **GNDVI** – _Green Normalized Difference Vegetation Index_
-**Equation:**
-ini
-CopyEdit
-`GNDVI = (N - G) / (N + G)`
-- **G** = Green reflectance
-**Purpose:** Better than NDVI for detecting vegetation stress due to higher sensitivity to chlorophyll.
----
-## 4. **SAVI** – _Soil Adjusted Vegetation Index_
-**Equation:**
-ini
-CopyEdit
-`SAVI = ((N - R) * (1 + α)) / (N + R + α)`
-- **α** = Soil brightness correction factor (typically 0.5)
-**Purpose:** Improves NDVI by correcting for soil brightness influence.
----
-## 5. **OSAVI** – _Optimized Soil Adjusted Vegetation Index_
-**Equation:**
-ini
-CopyEdit
-`OSAVI = SAVI (α = 0.16)`
-- Uses a smaller α value (0.16) for better performance in areas with less vegetation.
-**Purpose:** A more refined version of SAVI with optimized α for sparse vegetation.
----
-## 6. **MSAVI** – _Modified Soil Adjusted Vegetation Index_
-**Equation:**
-mathematica
-CopyEdit
-`MSAVI = (2N + 1 - sqrt((2N + 1)² - 8(N - R))) / 2`
-**Purpose:** Further adjusts for soil brightness without needing a fixed α value. Ideal for areas with very low vegetation cover.
----
-## 7. **GCI** – _Green Chlorophyll Index_
-**Equation:**
-ini
-CopyEdit
-`GCI = (N / G) - 1`
-**Purpose:** Estimates the chlorophyll content in plants, especially in high vegetation cover.
+## QGIS Demonstration and Tutorial
+- Be careful how plot boundaries are chosen
+We covered:
+- Creating Plot boundaries on page 51 of the manual
+- Calculating NDVI from Separate Bands on Page 60 of the manual
+- Exporting Excel files from Shapefile on page 67
+### Band numbers from the drone's sensor: 
+1 is Blue
+2 is Green 
+3 is Panchro (panchromatic imagery) 
+4 is Red 
+5 is Red Edge
+6 is NIR 
+7 is LWIR (Long Wavelength Infrared) 
+8 is Alpha (can be excluded for data analysis) 
 
----
-## 8. **RECI** – _Red Edge Chlorophyll Index_
-**Equation:**
-ini
-CopyEdit
-`RECI = (N / E) - 1`
-**Purpose:** Like GCI, but uses red edge data for better detection of subtle chlorophyll changes.
-
----
-## Summary Table
-| Index | Equation                             | Key Bands Used | Purpose                                |
-| ----- | ------------------------------------ | -------------- | -------------------------------------- |
-| NDVI  | (N - R) / (N + R)                    | NIR, Red       | General vegetation health              |
-| NDRE  | (N - E) / (N + E)                    | NIR, Red Edge  | Chlorophyll and early stress detection |
-| GNDVI | (N - G) / (N + G)                    | NIR, Green     | Stress detection via chlorophyll       |
-| SAVI  | ((N - R)(1 + α)) / (N + R + α)       | NIR, Red       | Vegetation + soil adjustment           |
-| OSAVI | SAVI with α = 0.16                   | NIR, Red       | Improved SAVI for sparse vegetation    |
-| MSAVI | (2N + 1 - √((2N + 1)² - 8(N - R)))/2 | NIR, Red       | Soil-corrected index (no α needed)     |
-| GCI   | (N / G) - 1                          | NIR, Green     | Chlorophyll estimation                 |
-| RECI  | (N / E) - 1                          | NIR, Red Edge  | Chlorophyll with red edge sensitivity  |
+### Plot boundary tool plugin for QGIS
+Plugins > manage and install > search for plot boundary by Jinha Jung
