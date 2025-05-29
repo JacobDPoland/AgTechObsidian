@@ -90,6 +90,7 @@ Thermal is # 6
 
 
 ## Flight details from yesterday
+1. 
 
 | Flight height | 25m      |
 | ------------- | -------- |

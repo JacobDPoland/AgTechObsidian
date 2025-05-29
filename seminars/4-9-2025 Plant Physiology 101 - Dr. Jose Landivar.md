@@ -81,5 +81,6 @@ Applications:
 - Irrigation management
 - Crop growth
 
+In the following image, N stands for Near infrared
 ![[Pasted image 20250409095138.png]]
 ![[Pasted image 20250409095528.png]]

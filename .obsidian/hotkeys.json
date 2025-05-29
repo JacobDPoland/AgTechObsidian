@@ -1,0 +1,11 @@
+{
+  "editor:context-menu": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ]
+}
