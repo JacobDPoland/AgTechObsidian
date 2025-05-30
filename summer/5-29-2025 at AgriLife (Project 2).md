@@ -37,6 +37,8 @@ We covered:
 - Creating Plot boundaries on page 51 of the manual
 - Calculating NDVI from Separate Bands on Page 60 of the manual
 - Exporting Excel files from Shapefile on page 67
+- Creating color maps on page 66 (RdYGn is a commonly used color mapping)
+- Exporting processed image files for reports
 ### Band numbers from the drone's sensor: 
 1 is Blue
 2 is Green 
